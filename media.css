@@ -1,0 +1,1615 @@
+        @media (width: 390px){
+     
+        .navbar{
+        z-index: 2;
+     
+         }
+        .navbar-nav{
+         text-align: center;
+         background-color: #000000;
+         border-radius: 20px;
+         font-weight: bold;
+         /* background-color:#D4D7D8; */
+         
+         }
+         #anchor {
+             color: #F5F5F7;
+         }
+         #anchorr {
+            color: #F5F5F7;
+        }
+         .navbar-nav .dropdown-menu{
+             background-color: black;
+             text-align: center;
+     
+         }
+         .dropdown-menu a{
+             color: #F32665;
+         }
+         #btnnew{
+             display: none;
+         }
+         #logo{
+             margin-top: 10px;
+             margin-left: 0px;
+         }
+         #boxx{
+             margin-top: 25px;
+             /* width: 100%; */
+             height: 50vh; 
+         
+             background-color: rgb(212, 215, 216);
+             border-top: grey dotted;
+             border-bottom: grey dotted;
+         }
+     
+         #heading{
+             font-size: 40px;
+         }
+         #textbox{
+             margin-top: 60px;
+             margin-left: 15px;
+             
+         }
+         #icon{
+            margin-right: 80px;
+            margin-top: 10px;
+         }
+         #btn1{
+             width: 100px;
+         }
+         #btn1:hover{
+             width: 100px;
+         }
+         #side1{
+           display: none;
+         }
+         
+         #side2{
+             display: none;
+           }
+         #buttons{
+             padding: 15px;
+         }
+         #button1{
+             display: none;
+         }
+        
+         #box1{
+             height: 28vh;
+         background-size: cover;
+         border-radius: 25px;
+         }
+     
+         #box3{
+             height: 50vh;
+           
+         
+             background-image: url(img/new1.jpeg);
+             background-repeat: no-repeat;
+             background-size: cover;
+     
+             border-radius: 25px;
+         }
+         #box4{
+             height: 50vh;
+             background-image: url(img/new2.jpeg);
+             background-repeat: no-repeat;
+             background-size: cover;
+             border-radius: 25px;
+         }
+         #box5{
+             height: 50vh;
+             margin-top: -23px;
+             background-image: url(img/new3.jpeg);
+             background-repeat: no-repeat;
+             background-size: cover;
+             border-radius: 25px;
+         }
+         /* ////// watch box///// */
+        
+         #box6{
+             height: 50vh;
+             
+         background-image: url(img/1.jpeg);
+         background-repeat: no-repeat;
+         background-size: 100% 100%;
+         border-radius: 25px;
+         }
+         #box7{
+             height: 50vh;
+             
+         background-image: url(img/2.jpeg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         border-radius: 25px;
+         }
+         #box8{
+             height: 50vh;
+             margin-top: -23px;
+             
+         background-image: url(img/3.jpeg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         border-radius: 25px;
+     
+         }
+         /* //////// watch bg  ////  */
+         #watchbg{
+             /* width: 100%; */
+             height: 30vh;
+             /* padding: 20px; */
+         
+             background-image: url(img/watch\ banner.jpg);
+             background-repeat: no-repeat;
+             background-size: cover;
+             background-position: 50%;
+         } 
+         
+     .watch2{
+         background-color: #F5F5F7;
+         /* width: 100%; */
+         height: 82vh;
+     }
+     #watchtext{
+        font-size: 25px;
+         text-align: center;
+     }
+         #watchbox2{
+      
+         /* width: 100%; */
+         height: 60px;
+         background-image: url(img/carbonimg.png);
+         background-repeat: no-repeat;
+         background-size: 300px 60px; 
+         margin-top: 75px;
+     }
+     #watchmultibg{
+        width: 100%;
+        height: 390px !important;
+    
+        background-image: url(img/watches.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin-top: 120px !important;
+    }
+    #watchtext1{
+        font-size: 30px;
+    }
+         /* //// 4 images in last// */
+         #image1{
+             height: 65vh;
+             margin-top: 8px;
+         }
+         .lastimg{
+             width: 80%;
+             margin-top: 8px;
+             border-radius: 25px;
+         }
+         #text1{
+             height: 30vh;
+             margin-top: 20px;
+             font-size: 12px;
+         }
+         #last{
+             height: 31vh;
+             /* display: none; */
+         }
+     
+         #lastbtn1{
+             margin-top: 15px;
+           }
+         #lastbtn2{
+           margin-top: 15px;
+         }
+         #para{
+             display: none;
+         }
+         /* ////extra//// */
+         #iphone{
+            margin-top: -65px;
+         }
+
+         select:focus option {
+            color: rgb(217, 255, 0); /* Change this to your desired color */
+        }
+        
+        /* CSS for select options when select element loses focus */
+        select:not(:focus) option {
+            color: black; /* Change this to your default color */
+        }
+    
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media (width: 430px){
+
+ 
+    .navbar{
+        z-index: 2;
+     
+         }
+         .navbar-nav{
+             text-align: center;
+          
+             background-color: #000000;
+         border-radius: 20px;
+         font-weight: bold;
+         /* background-color:#D4D7D8; */
+         
+         }
+         #anchor {
+             color: #F5F5F7;
+         }
+         #anchorr {
+            color: #F5F5F7;
+        }
+         .navbar-nav .dropdown-menu{
+             background-color: black;
+             text-align: center;
+     
+         }
+         .dropdown-menu a{
+             color: #F32665;
+         }
+         #btnnew{
+            display: none;
+        }
+         #logo{
+             margin-top: 10px;
+             margin-left: 0px;
+         }
+         #boxx{
+             margin-top: 25px;
+             /* width: 100%; */
+             height: 40vh; 
+         
+             background-color: rgb(212, 215, 216);
+             border-top: grey dotted;
+             border-bottom: grey dotted;
+         }
+     
+         #heading{
+             font-size: 40px;
+         }
+         #textbox{
+             margin-top: 60px;
+             margin-left: 15px;
+             
+         }
+         #icon{
+            margin-right: 125px;
+            margin-top: 10px;
+         }
+         #btn1{
+             width: 100px;
+         }
+         #btn1:hover{
+             width: 100px;
+         }
+         #side1{
+           display: none;
+         }
+         
+         #side2{
+             display: none;
+           }
+         #buttons{
+             padding: 15px;
+         }
+         #button1{
+             display: none;
+         }
+        
+         #box1{
+             height: 28vh;
+         background-size: cover;
+         border-radius: 25px;
+         }
+     
+         #box3{
+             height: 50vh;
+           
+         
+             background-image: url(img/new1.jpeg);
+             background-repeat: no-repeat;
+             background-size: cover;
+     
+             border-radius: 25px;
+         }
+         #box4{
+             height: 50vh;
+             background-image: url(img/new2.jpeg);
+             background-repeat: no-repeat;
+             background-size: cover;
+             border-radius: 25px;
+         }
+         #box5{
+             height: 50vh;
+             margin-top: -23px;
+             background-image: url(img/new3.jpeg);
+             background-repeat: no-repeat;
+             background-size: cover;
+             border-radius: 25px;
+         }
+         /* ////// watch box///// */
+        
+         #box6{
+             height: 50vh;
+             
+         background-image: url(img/1.jpeg);
+         background-repeat: no-repeat;
+         background-size: 100% 100%;
+         border-radius: 25px;
+         }
+         #box7{
+             height: 50vh;
+             
+         background-image: url(img/2.jpeg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         border-radius: 25px;
+         }
+         #box8{
+             height: 50vh;
+             margin-top: -23px;
+             
+         background-image: url(img/3.jpeg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         border-radius: 25px;
+     
+         }
+         /* //////// watch bg  ////  */
+         #watchbg{
+             /* width: 100%; */
+             height: 30vh;
+             /* padding: 20px; */
+         
+             background-image: url(img/watch\ banner.jpg);
+             background-repeat: no-repeat;
+             background-size: cover;
+             background-position: 50%;
+         } 
+         
+     .watch2{
+         background-color: #F5F5F7;
+         /* width: 100%; */
+         height: 74vh;
+     }
+     #watchtext{
+        font-size: 25px;
+         text-align: center;
+     }
+     #accessories{
+        margin-top: -80px;
+     }
+         #watchbox2{
+      
+         /* width: 100%; */
+         height: 60px;
+         background-image: url(img/carbonimg.png);
+         background-repeat: no-repeat;
+         background-size: 300px 60px; 
+         margin-top: 22px;
+     }
+     #watchmultibg{
+        width: 100%;
+        height: 390px !important;
+    
+        background-image: url(img/watches.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin-top: 100px;
+    }
+    #watchtext1{
+        font-size: 30px;
+    }
+         /* //// 4 images in last// */
+         #image1{
+             height: 65vh;
+             margin-top: 8px;
+         }
+         .lastimg{
+             width: 80%;
+             margin-top: 8px;
+             border-radius: 25px;
+         }
+         #text1{
+             height: 24vh;
+             margin-top: 20px;
+             font-size: 12px;
+         }
+         #last{
+             height: 31vh;
+             /* display: none; */
+         }
+     
+         #lastbtn1{
+             margin-top: 15px;
+           }
+         #lastbtn2{
+           margin-top: 15px;
+         }
+         #para{
+             display: none;
+         }
+         /* ////extra//// */
+         #iphone{
+            margin-top: -65px;
+         }
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media (width:768px){
+    
+    .navbar{
+        z-index: 2;
+     
+         }
+         .navbar-nav{
+             text-align: center;
+          
+             background-color: #000000;
+         border-radius: 20px;
+         font-weight: bold;
+         /* background-color:#D4D7D8; */
+         
+         }
+         #anchor {
+             color: #F5F5F7;
+         }
+         #anchorr {
+            color: #F5F5F7;
+        }
+         .navbar-nav .dropdown-menu{
+             background-color: black;
+             text-align: center;
+     
+         }
+         .dropdown-menu a{
+             color: #F32665;
+         }
+         #btnnew{
+            display: none;
+        }
+         #logo{
+             margin-top: 10px;
+             margin-left: 0px;
+         }
+         #boxx{
+             margin-top: 25px;
+             /* width: 100%; */
+             height: 40vh; 
+         
+             background-color: rgb(212, 215, 216);
+             border-top: grey dotted;
+             border-bottom: grey dotted;
+         }
+     
+         #heading{
+             font-size: 40px;
+         }
+         #textbox{
+             margin-top: 60px;
+             margin-left: 15px;
+             
+         }
+         #icon{
+             margin-right: 445px;
+             margin-top: 10px;
+
+         }
+         #btn1{
+             width: 150px;
+         }
+         #btn1:hover{
+             width: 100px;
+         }
+         #side1{
+            height: 346px;
+            margin-top: 41px;
+            margin-left: 4px;
+         }
+         
+         #side2{
+            height: 209px;
+            margin-top: 193px;
+            margin-left: -21px;
+        }
+
+         #buttons{
+             padding: 15px;
+         }
+         #button1{
+             display: none;
+         }
+        
+         #box1{
+             height: 6vh;
+         background-size: cover;
+         border-radius: 25px;
+         }
+     
+         #box3{
+             height: 31vh;
+           
+         
+             background-image: url(img/new1.jpeg);
+             background-repeat: no-repeat;
+             background-size: cover;
+     
+             border-radius: 25px;
+         }
+         #box3itext{
+            font-size: 18px !important;
+         }
+         #box4{
+             height: 31vh;
+             background-image: url(img/new2.jpeg);
+             background-repeat: no-repeat;
+             background-size: cover;
+             border-radius: 25px;
+         }
+         #box4itext{
+            font-size: 18px !important;
+         }
+         #box5{
+             height: 31vh;
+             background-image: url(img/new3.jpeg);
+             background-repeat: no-repeat;
+             background-size: cover;
+             border-radius: 25px;
+         }
+         #box5itext{
+            font-size: 18px !important;
+         }
+         /* ////// watch box///// */
+        
+         #box6{
+             height: 31vh;
+             
+         background-image: url(img/1.jpeg);
+         background-repeat: no-repeat;
+         background-size: 100% 100%;
+         border-radius: 25px;
+         }
+         #box6itext {
+            font-size: 18px;
+         }
+         #box7{
+             height: 31vh;
+             
+         background-image: url(img/2.jpeg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         border-radius: 25px;
+         }
+         #box7itext{
+            font-size: 18px !important;
+
+         }
+         #box8{
+             height: 31vh;
+             
+             
+         background-image: url(img/3.jpeg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         border-radius: 25px;
+     
+         }
+         #box8itext{
+            font-size: 18px !important;
+
+         }
+         /* //////// watch bg  ////  */
+         #watchbg{
+             /* width: 100%; */
+             height: 30vh;
+             /* padding: 20px; */
+         
+             background-image: url(img/watch\ banner.jpg);
+             background-repeat: no-repeat;
+             background-size: cover;
+             background-position: 50%;
+         } 
+         
+     .watch2{
+         background-color: #F5F5F7;
+         /* width: 100%; */
+         height: 40vh;
+     }
+     #watchtext{
+         text-align: center;
+     }
+     #accessories{
+        margin-top: -80px;
+     }
+         #watchbox2{
+      
+         /* width: 100%; */
+         height: 60px;
+         background-image: url(img/carbonimg.png);
+         background-repeat: no-repeat;
+         background-size: 300px 60px; 
+         margin-top: 22px;
+     }
+     #watchmultibg{
+        width: 100%;
+        height: 390px !important;
+    
+        background-image: url(img/watches.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin-top: 12px;
+    }
+    #watchtext1{
+        font-size: 30px;
+    }
+         /* //// 4 images in last// */
+         #image1{
+             height: 37vh;
+             margin-top: 8px;
+         }
+         .lastimg{
+             width: 80%;
+             margin-top: 8px;
+             border-radius: 25px;
+         }
+         #text1{
+             height: 28vh;
+             margin-top: 20px;
+             font-size: 2px;
+         }
+         #last{
+             height: 31vh;
+             /* display: none; */
+         }
+     
+        
+         #para{
+             display: none;
+         }
+         /* ////extra//// */
+         #iphone{
+            margin-top: -65px;
+         }
+         #about{
+            margin-top: -40px;
+         }
+         /* div button on hover  */
+         .add-to-cart-btn {
+            position: absolute;
+            bottom: -65px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #F32665;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: bottom 0.9s ease;
+            width: 116px;
+        }
+}
+ /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////  */
+
+ @media (width: 414px){
+   
+     
+        .navbar{
+        z-index: 2;
+     
+         }
+        .navbar-nav{
+         text-align: center;
+         background-color: #000000;
+         border-radius: 20px;
+         font-weight: bold;
+         /* background-color:#D4D7D8; */
+         
+         }
+         #anchor {
+             color: #F5F5F7;
+         }
+         #anchorr {
+            color: #F5F5F7;
+        }
+         .navbar-nav .dropdown-menu{
+             background-color: black;
+             text-align: center;
+     
+         }
+         .dropdown-menu a{
+             color: #F32665;
+         }
+         #btnnew{
+            display: none;
+        }
+         #logo{
+             margin-top: 10px;
+             margin-left: 0px;
+         }
+         #boxx{
+             margin-top: 25px;
+             /* width: 100%; */
+             height: 40vh; 
+         
+             background-color: rgb(212, 215, 216);
+             border-top: grey dotted;
+             border-bottom: grey dotted;
+         }
+     
+         #heading{
+             font-size: 40px;
+         }
+         #textbox{
+             margin-top: 60px;
+             margin-left: 15px;
+             
+         }
+         #icon{
+             display: none;
+         }
+         #btn1{
+             width: 100px;
+         }
+         #btn1:hover{
+             width: 100px;
+         }
+         #side1{
+           display: none;
+         }
+         
+         #side2{
+             display: none;
+           }
+         #buttons{
+             padding: 15px;
+         }
+         #button1{
+             display: none;
+         }
+        
+         #box1{
+             height: 28vh;
+         background-size: cover;
+         border-radius: 25px;
+         }
+     
+         #box3{
+             height: 50vh;
+           
+         
+             background-image: url(img/new1.jpeg);
+             background-repeat: no-repeat;
+             background-size: cover;
+     
+             border-radius: 25px;
+         }
+         #box4{
+             height: 50vh;
+             background-image: url(img/new2.jpeg);
+             background-repeat: no-repeat;
+             background-size: cover;
+             border-radius: 25px;
+         }
+         #box5{
+             height: 50vh;
+             margin-top: -23px;
+             background-image: url(img/new3.jpeg);
+             background-repeat: no-repeat;
+             background-size: cover;
+             border-radius: 25px;
+         }
+         /* ////// watch box///// */
+        
+         #box6{
+             height: 50vh;
+             
+         background-image: url(img/1.jpeg);
+         background-repeat: no-repeat;
+         background-size: 100% 100%;
+         border-radius: 25px;
+         }
+         #box7{
+             height: 50vh;
+             
+         background-image: url(img/2.jpeg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         border-radius: 25px;
+         }
+         #box8{
+             height: 50vh;
+             margin-top: -23px;
+             
+         background-image: url(img/3.jpeg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         border-radius: 25px;
+     
+         }
+         /* //////// watch bg  ////  */
+         #watchbg{
+             /* width: 100%; */
+             height: 30vh;
+             /* padding: 20px; */
+         
+             background-image: url(img/watch\ banner.jpg);
+             background-repeat: no-repeat;
+             background-size: cover;
+             background-position: 50%;
+         } 
+         
+     .watch2{
+         background-color: #F5F5F7;
+         /* width: 100%; */
+         height: 82vh;
+     }
+     #watchtext{
+        font-size: 25px;
+        text-align: center;
+    }
+         #watchbox2{
+      
+         /* width: 100%; */
+         height: 60px;
+         background-image: url(img/carbonimg.png);
+         background-repeat: no-repeat;
+         background-size: 300px 60px; 
+         margin-top: 70px;
+     }
+     #watchmultibg{
+        width: 100%;
+        height: 390px !important;
+    
+        background-image: url(img/watches.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin-top: 125px;
+    }
+    #watchtext1{
+        font-size: 30px;
+    }
+         /* //// 4 images in last// */
+         #image1{
+             height: 65vh;
+             margin-top: 8px;
+         }
+         .lastimg{
+             width: 80%;
+             margin-top: 8px;
+             border-radius: 25px;
+         }
+         #text1{
+             height: 24vh;
+             margin-top: 20px;
+             font-size: 12px;
+         }
+         #last{
+             height: 31vh;
+             /* display: none; */
+         }
+     
+         #lastbtn1{
+             margin-top: 15px;
+           }
+         #lastbtn2{
+           margin-top: 15px;
+         }
+         #para{
+             display: none;
+         }
+         /* ////extra//// */
+         #iphone{
+            margin-top: -65px;
+         }
+}
+
+ /* /////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+ @media (width: 360px){
+     
+    .navbar{
+    z-index: 2;
+ 
+     }
+    .navbar-nav{
+     text-align: center;
+     background-color: #000000;
+     border-radius: 20px;
+     font-weight: bold;
+     /* background-color:#D4D7D8; */
+     
+     }
+     #anchor {
+         color: #F5F5F7;
+     }
+     #anchorr {
+        color: #F5F5F7;
+    }
+     .navbar-nav .dropdown-menu{
+         background-color: black;
+         text-align: center;
+ 
+     }
+     .dropdown-menu a{
+         color: #F32665;
+     }
+     #btnnew{
+        display: none;
+    }
+    #h1{
+        font-size: 40px;
+    }
+     #logo{
+         margin-top: 10px;
+         margin-left: 0px;
+         width: 140px;
+     }
+     #boxx{
+         margin-top: 25px;
+         /* width: 100%; */
+         height: 60vh; 
+     
+         background-color: rgb(212, 215, 216);
+         border-top: grey dotted;
+         border-bottom: grey dotted;
+     }
+ 
+     #heading{
+         font-size: 40px;
+     }
+     #textbox{
+         margin-top: 60px;
+         margin-left: 15px;
+         
+     }
+     #icon{
+        margin-right: 85px;
+        margin-top: 10px;
+     }
+     #btn1{
+         width: 100px;
+     }
+     #btn1:hover{
+         width: 100px;
+     }
+     #side1{
+       display: none;
+     }
+     
+     #side2{
+         display: none;
+       }
+     #buttons{
+         padding: 15px;
+     }
+     #button1{
+         display: none;
+     }
+    
+     #box1{
+         height: 28vh;
+     background-size: cover;
+     border-radius: 25px;
+     }
+ 
+     #box3{
+         height: 66vh;
+       
+     
+         background-image: url(img/new1.jpeg);
+         background-repeat: no-repeat;
+         background-size: cover;
+ 
+         border-radius: 25px;
+     }
+     #box4{
+         height: 66vh;
+         background-image: url(img/new2.jpeg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         border-radius: 25px;
+     }
+     #box5{
+         height: 66vh;
+         margin-top: -23px;
+         background-image: url(img/new3.jpeg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         border-radius: 25px;
+     }
+     /* ////// watch box///// */
+    
+     #box6{
+         height: 60vh;
+         
+     background-image: url(img/1.jpeg);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     border-radius: 25px;
+     }
+     #box6itext{
+        font-size: 20px;
+    }
+     #box7{
+         height: 60vh;
+         
+     background-image: url(img/2.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-radius: 25px;
+     }
+    
+     #box8{
+         height: 63vh;
+         margin-top: -23px;
+         
+     background-image: url(img/3.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-radius: 25px;
+ 
+     }
+     /* //////// watch bg  ////  */
+     #watchbg{
+         /* width: 100%; */
+         height: 30vh;
+         /* padding: 20px; */
+     
+         background-image: url(img/watch\ banner.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: 50%;
+     } 
+     
+ .watch2{
+     background-color: #F5F5F7;
+     /* width: 100%; */
+     height: 108vh;
+ }
+ #watchtext{
+     text-align: center;
+     font-size: 30px;
+ }
+     #watchbox2{
+  
+     /* width: 100%; */
+     height: 60px;
+     background-image: url(img/carbonimg.png);
+     background-repeat: no-repeat;
+     background-size: 300px 60px; 
+     margin-top: 22px;
+ }
+ #watchmultibg{
+    width: 100%;
+    height: 350px !important;
+
+    background-image: url(img/watches.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 200px;
+}
+#watchtext1{
+    font-size: 26px;
+}
+     /* //// 4 images in last// */
+     #image1{
+         height: 76vh;
+         margin-top: 8px;
+     }
+     .lastimg{
+         width: 80%;
+         margin-top: 8px;
+         border-radius: 25px;
+     }
+     #text1{
+         height: 30vh;
+         margin-top: 20px;
+         font-size: 12px;
+     }
+     #last{
+         height: 35vh;
+         /* display: none; */
+     }
+ 
+     #lastbtn1{
+         margin-top: 15px;
+       }
+     #lastbtn2{
+       margin-top: 15px;
+     }
+     #para{
+         display: none;
+     }
+     /* ////extra//// */
+     #iphone{
+        margin-top: -65px;
+     }
+     #watch{
+        margin-top: -90px;
+     }
+     #accessories{
+        margin-top: -90px;
+     }
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media (width: 375px){
+     
+    .navbar{
+    z-index: 2;
+ 
+     }
+    .navbar-nav{
+     text-align: center;
+     background-color: #000000;
+     border-radius: 20px;
+     font-weight: bold;
+     /* background-color:#D4D7D8; */
+     
+     }
+     #anchor {
+         color: #F5F5F7;
+     }
+     #anchorr {
+        color: #F5F5F7;
+    }
+     .navbar-nav .dropdown-menu{
+         background-color: black;
+         text-align: center;
+ 
+     }
+     .dropdown-menu a{
+         color: #F32665;
+     }
+     #btnnew{
+        display: none;
+    }
+     #logo{
+         margin-top: 10px;
+         margin-left: 0px;
+     }
+     #boxx{
+         margin-top: 25px;
+         /* width: 100%; */
+         height: 50vh; 
+     
+         background-color: rgb(212, 215, 216);
+         border-top: grey dotted;
+         border-bottom: grey dotted;
+     }
+     #logo{
+        width: 140px;
+     }
+     #h1{
+        font-size: 40px;
+     }
+ 
+     #heading{
+         font-size: 40px;
+     }
+     #textbox{
+         margin-top: 60px;
+         margin-left: 15px;
+         
+     }
+     #icon{
+        margin-right: 80px;
+        margin-top: 10px;
+     }
+     #btn1{
+         width: 135px;
+     }
+     #btn1:hover{
+         width: 100px;
+     }
+     #side1{
+       display: none;
+     }
+     
+     #side2{
+         display: none;
+       }
+     #buttons{
+         padding: 15px;
+     }
+     #button1{
+         display: none;
+     }
+    
+     #box1{
+         height: 28vh;
+     background-size: cover;
+     border-radius: 25px;
+     }
+ 
+     #box3{
+         height: 66vh;
+       
+     
+         background-image: url(img/new1.jpeg);
+         background-repeat: no-repeat;
+         background-size: cover;
+ 
+         border-radius: 25px;
+     }
+     #box4{
+         height: 66vh;
+         background-image: url(img/new2.jpeg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         border-radius: 25px;
+     }
+     #box5{
+         height: 66vh;
+         margin-top: -23px;
+         background-image: url(img/new3.jpeg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         border-radius: 25px;
+     }
+     /* ////// watch box///// */
+    
+     #box6{
+         height: 60vh;
+         
+     background-image: url(img/1.jpeg);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     border-radius: 25px;
+     }
+     #box6itext{
+        font-size: 20px;
+    }
+     #box7{
+         height: 60vh;
+         
+     background-image: url(img/2.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-radius: 25px;
+     }
+    
+     #box8{
+         height: 63vh;
+         margin-top: -23px;
+         
+     background-image: url(img/3.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-radius: 25px;
+ 
+     }
+     /* //////// watch bg  ////  */
+     #watchbg{
+         /* width: 100%; */
+         height: 30vh;
+         /* padding: 20px; */
+     
+         background-image: url(img/watch\ banner.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: 50%;
+     } 
+     
+ .watch2{
+     background-color: #F5F5F7;
+     /* width: 100%; */
+     height: 90vh;
+ }
+ #watchtext{
+     text-align: center;
+     font-size: 30px;
+ }
+     #watchbox2{
+  
+     /* width: 100%; */
+     height: 60px;
+     background-image: url(img/carbonimg.png);
+     background-repeat: no-repeat;
+     background-size: 300px 60px; 
+     margin-top: 70px;
+ }
+ #watchmultibg{
+    width: 100%;
+    height: 350px !important;
+
+    background-image: url(img/watches.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 65px;
+}
+#watchtext1{
+    font-size: 26px;
+}
+     /* //// 4 images in last// */
+     #image1{
+         height: 76vh;
+         margin-top: 8px;
+     }
+     .lastimg{
+         width: 80%;
+         margin-top: 8px;
+         border-radius: 25px;
+     }
+     #text1{
+         height: 30vh;
+         margin-top: 20px;
+         font-size: 12px;
+     }
+     #last{
+         height: 39vh;
+         /* display: none; */
+     }
+ 
+     #lastbtn1{
+         margin-top: 15px;
+       }
+     #lastbtn2{
+       margin-top: 15px;
+     }
+     #para{
+         display: none;
+     }
+     /* ////extra//// */
+     #iphone{
+        margin-top: -65px;
+     }
+     #watch{
+        margin-top: -90px;
+     }
+     #accessories{
+        margin-top: -90px;
+     }
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media (width: 412px){
+     
+    .navbar{
+    z-index: 2;
+ 
+     }
+    .navbar-nav{
+     text-align: center;
+     background-color: #000000;
+     border-radius: 20px;
+     font-weight: bold;
+     /* background-color:#D4D7D8; */
+     
+     }
+     #anchor {
+         color: #F5F5F7;
+     }
+     #anchorr {
+        color: #F5F5F7;
+    }
+     .navbar-nav .dropdown-menu{
+         background-color: black;
+         text-align: center;
+ 
+     }
+     .dropdown-menu a{
+         color: #F32665;
+     }
+     #btnnew{
+        display: none;
+    }
+     #logo{
+         margin-top: 10px;
+         margin-left: 0px;
+     }
+     #boxx{
+         margin-top: 25px;
+         /* width: 100%; */
+         height: 52vh; 
+     
+         background-color: rgb(212, 215, 216);
+         border-top: grey dotted;
+         border-bottom: grey dotted;
+     }
+ 
+     #heading{
+         font-size: 40px;
+     }
+     #textbox{
+         margin-top: 60px;
+         margin-left: 15px;
+         
+     }
+     #icon{
+         display: none;
+     }
+     #btn1{
+         width: 100px;
+     }
+     #btn1:hover{
+         width: 100px;
+     }
+     #side1{
+       display: none;
+     }
+     
+     #side2{
+         display: none;
+       }
+     #buttons{
+         padding: 15px;
+     }
+     #button1{
+         display: none;
+     }
+    
+     #box1{
+         height: 28vh;
+     background-size: cover;
+     border-radius: 25px;
+     }
+ 
+     #box3{
+         height: 66vh;
+       
+     
+         background-image: url(img/new1.jpeg);
+         background-repeat: no-repeat;
+         background-size: cover;
+ 
+         border-radius: 25px;
+     }
+     #box4{
+         height: 66vh;
+         background-image: url(img/new2.jpeg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         border-radius: 25px;
+     }
+     #box5{
+         height: 66vh;
+         margin-top: -23px;
+         background-image: url(img/new3.jpeg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         border-radius: 25px;
+     }
+     /* ////// watch box///// */
+    
+     #box6{
+         height: 60vh;
+         
+     background-image: url(img/1.jpeg);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     border-radius: 25px;
+     }
+     #box6itext{
+        font-size: 20px;
+    }
+     #box7{
+         height: 60vh;
+         
+     background-image: url(img/2.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-radius: 25px;
+     }
+    
+     #box8{
+         height: 63vh;
+         margin-top: -23px;
+         
+     background-image: url(img/3.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-radius: 25px;
+ 
+     }
+     /* //////// watch bg  ////  */
+     #watchbg{
+         /* width: 100%; */
+         height: 30vh;
+         /* padding: 20px; */
+     
+         background-image: url(img/watch\ banner.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: 50%;
+     } 
+     
+ .watch2{
+     background-color: #F5F5F7;
+     /* width: 100%; */
+     height: 95vh;
+ }
+ #watchtext{
+     text-align: center;
+     font-size: 30px;
+ }
+     #watchbox2{
+  
+     /* width: 100%; */
+     height: 60px;
+     background-image: url(img/carbonimg.png);
+     background-repeat: no-repeat;
+     background-size: 300px 60px; 
+     margin-top: 22px;
+ }
+ #watchmultibg{
+    width: 100%;
+    height: 370px !important;
+
+    background-image: url(img/watches.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 200px;
+}
+#watchtext1{
+    font-size: 26px;
+}
+     /* //// 4 images in last// */
+     #image1{
+         height: 76vh;
+         margin-top: 8px;
+     }
+     .lastimg{
+         width: 80%;
+         margin-top: 8px;
+         border-radius: 25px;
+     }
+     #text1{
+         height: 30vh;
+         margin-top: 20px;
+         font-size: 12px;
+     }
+     #last{
+         height: 35vh;
+         /* display: none; */
+     }
+ 
+     #lastbtn1{
+         margin-top: 15px;
+       }
+     #lastbtn2{
+       margin-top: 15px;
+     }
+     #para{
+         display: none;
+     }
+     /* ////extra//// */
+     #iphone{
+        margin-top: -65px;
+     }
+     #watch{
+        margin-top: -90px;
+     }
+     #accessories{
+        margin-top: -90px;
+     }
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+@media (width: 1024px){
+    #image1{
+        height: 31vh;
+    }
+    #watchbg {
+        width: 100%;
+        height: 460px;
+        background-image: url(img/watch\ banner.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    #logo{
+        margin-left: 5px;
+    }
+    #anchorr {
+        color: #F5F5F7;
+    }
+   }
+

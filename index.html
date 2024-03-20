@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic devices Store</title>
+    <link rel="shortcut icon" href="img/3-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="lightbox/css/lightbox.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Wow/css/libs/animate.css">
+
+
+</head>
+<body>
+  <div id="content">
+    <div class="container-fluid  p-0">
+      <div class="container ">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 p-0">
+       <!-- ////////nav bar open////////// -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-body fixed-top">
+      <a class="navbar-brand" href="#">
+        <img id="logo" src="img/logo1.png" alt="">
+      </a>
+      <a target="_blank" href="#"><i id="icon" class="fa-brands fa-apple"></i></a>
+
+
+      <button class="navbar-toggler" type="button//" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item active">
+                <a id="anchor"  class="nav-link scroll" href="#boxx">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a id="anchor"   class="nav-link scroll" href="#about">About</a>
+              </li>
+              <li class="nav-item active">
+                <a id="anchor"   class="nav-link scroll" href="#iphone">Iphone </a>
+              </li>
+              <li class="nav-item active">
+                <a id="anchor"   class="nav-link scroll" href="#watch">Watch</a>
+              </li>
+              <li class="nav-item active">
+                <a id="anchor"   class="nav-link scroll" href="#accessories">Accessories</a>
+              </li>
+              <li class="nav-item dropdown active">
+                 <a  id="anchorr" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           Models
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a  class="dropdown-item" href="#">Iphone X </a>
+                    <a class="dropdown-item" href="#">Iphone X pro</a>
+                    <a class="dropdown-item" href="#">Iphone 14 pro </a>
+                    <a class="dropdown-item" href="#">Iphone 14 pro max </a>
+                    <a class="dropdown-item" href="#">Iphone 15 </a>
+                    <a class="dropdown-item" href="#">Iphone 14 pro </a>
+                  </div>
+              </li>
+
+            </ul>     
+
+      <button  id="btnnew" type="button"  data-toggle="modal" data-target="#form">Shop Now</button>
+   
+           
+       </div>
+        </nav>
+        </div>
+        </div>
+        </div> 
+        </div>
+
+        
+    <!-- //////////////header open /////////// -->
+    <div id="boxx" class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6 p-0">
+            <div id="textbox">
+              <h1 class="wow slideInDown" data-wow-duration ="3.2s"  id="h1"> <span style="color: black;"> <b>Store. </b></span> The best way to buy the products you love.</h1> 
+                  <br>
+                  
+              <div class="container">
+              <button class="wow pulse" data-wow-duration ="3.7s"  id="btn1" type="button" data-toggle="modal" data-target="#form" > See More </button>  
+             </div>
+
+
+
+              <!-- modal form  open   -->
+
+    
+      <div  class="modal fade " id="form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div  class="modal-dialog modal-dialog-centered " role="document">
+
+          <div style=" filter: drop-shadow(5px 5px 10px #b8f70cde) ;
+          background-image: url(img/image.jpg);
+            background-size: cover; "  id="modal"  class ="modal-content p-3 ">
+     
+            <div style="background: rgba(248, 248, 252, 0.293);border-radius: 12px;"  class="container-fluid modalcontainer">
+          <a class="mt-4" target="_blank" href="#"> <img class="mt-4"  id="logo" src="img/logo1.png" alt=""> </a>
+          
+            <i  id="iconform" class="fa-brands fa-apple mt-3"></i>
+
+            <hr>
+         
+        <form action="https://formspree.io/f/mleqwnvw" method="POST">
+          <div class="container-fluid mt-4">
+           <div class="row">
+            <div class="col-md-6">
+             <h3>Products</h3>
+             <div class="form-group">
+             <label  for="productSelect">Select Product:</label>
+                <select name="productSelect"  class="form-control" id="productSelect">
+                  <option value="0">Select Product</option>
+                  <option value="20000Rs">iPhone 12 Pro Max</option>
+                  <option value="40000Rs">iPhone 13 Pro</option>
+                  <option value="80000Rs">iphone 14 pro max</option>
+                  <option value="150000Rs">iphone 15 pro m</option>
+                  <option value="35000Rs">MacBook Air</option>
+                  <option value="10000Rs">AirPods Pro</option>
+                  <option value="25000Rs"> AirPods Max</option>
+                   <option value="48000Rs">MacBook Pro 13-inch</option>
+                </select>
+              </div>
+                          <h3>Total Price</h3>
+                          <p id="totalPrice">$0</p>
+
+                        </div>
+                        <!-- ..... -->
+                        
+      <div class="col-md-6">
+         <h4>Checkout</h4>
+         
+            <div class="form-group ">
+              <label for="nameInput">Name:</label>
+                <input name="nameInput"  class="nameinput mt-2"  type="text" class="form-control" id="nameInput" placeholder="Enter your name">
+                            
+    </div>
+          <div class="form-group">
+            <label for="paymentMethod">Payment Method:</label>
+              <select name="paymentMethod" class="form-control" id="paymentMethod">
+                  <option value="0">choose option</option>
+                  <option value="cash">Cash On Delivery</option>
+                  <option value="credit">Credit Card</option>
+                  <option value="debit">Debit Card</option>
+                   <option value="paypal">PayPal</option>
+                    </select>
+           </div>
+                          
+                         
+                 
+                        </div>
+                      </div>
+                    </div>
+                    <!-- ........ -->
+        <div class="container">
+    
+         <div class="row">
+           <div class="col-12">
+             <div class="product">
+               <div class="row p-0">
+                             
+                <div class="col-12">
+                         
+                 <div class="row">
+                 <div class="col-12">
+                  <div class="form-group">
+                    <label for="quantity">Quantity:</label>
+                    <input name="quantity"  id="quantity" type="number" class="form-control quantity" value="1" min="1">
+                        <!-- ....... checkbox  -->
+                        <div class="checkboxes__row mt-4">
+                           <div class="checkboxes__item">
+                            <label class="checkbox style-g">
+                             <input name="checkbox" type="checkbox"/> <h5>Terms & Conditions</h5> 
+                              <div class="checkbox__checkmark"></div>
+                                <div class="checkbox__body"></div>
+                                  </label>
+                                    </div></div>
+                                      <!-- ....... checkbox -->
+                  
+                                    </div>
+                                  </div>
+                             
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div class="row mt-0">
+                        <div class="col-12">
+                          <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title text-dark">Order Summary</h5>
+                              <p class="card-text total-items">Total Items: <span id="totalItems">1</span></p>
+                              <p class="card-text subtotal">Subtotal: <span id="subtotal">Rs 0</span></p>
+                              <button name="button" style="background-color: #F32665;    width: 150px;
+                              font-size: 18px; font-family: arial;" type="submit" id="btnform" class="btn text-light">Place Order</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                   
+                  </form>
+                  <!-- ///// -->
+                   
+ 
+                  <!-- //// -->
+   </div>
+     </div>
+           </div>
+               </div>
+          
+                      
+
+            <!-- modal form   end      -->
+        
+     <!-- ..... -->
+           </div>
+            </div>
+<!-- //////// -->
+        <div class="col-lg-3 col-md-3 col-sm-3">
+            <img class="wow fadeInDownBig" data-wow-duration ="2.2s"  id="side1"  src="img/pngwing.com (1).png" alt="">
+         </div>
+
+       <div class="col-lg-3 col-md-3 col-sm-3">
+           <img class="wow fadeInDownBig" data-wow-duration ="3.5s" id="side2" src="img/pngwing.com.png" alt="">
+          </div>
+          </div>
+          </div>  
+        </div>
+        <!-- ///////////////////header close////////// -->
+        <br><br><br><br><br><br>
+    <!-- ////////////////// 6 images open///////// -->
+
+    <div class="container">
+        <div  class="row">
+
+            <div class="col-lg-2 col-md-2 col-sm-2">
+
+        <img  id="box1" src="img/b.png" alt="">
+        
+        <br> <br>
+        <h5 class="text-dark text-center"><a>Iphone</a></h5>
+        
+            </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-2 ">
+            <img   id="box1" src="img/a.png" alt="">
+             <br> <br>
+            <h5 class="text-dark text-center"><a >Mac</a></h5>
+
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-2">
+            <img  id="box1" src="img/c.png" alt="">
+             <br> <br>
+            <h5 class="text-dark text-center"><a>AirPods</a></h5>
+
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-2">
+            <img id="box1" src="img/d.png" alt=""> <br> <br>
+            <h6 class="text-dark text-center"><a >Apple Watch</a></h6>
+
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-2">
+            <img  id="box1" src="img/e.png" alt=""> <br> <br>
+            <h5 class="text-dark text-center"><a >Ipad</a></h5>
+
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-2">
+        <img   id="box1" src="img/f.png" alt=""> <br> <br>
+        <h5 class="text-dark text-center"><a >Apple TV 4k</a></h5>
+
+        </div>
+        </div>
+    </div>
+
+    <!-- ////////////////// 6 images close///////// -->
+    <br><br><br> <br><br>
+   <!-- ///////////3 images//// -->
+     <div id="about" class="container">
+            <br><br>
+            <div id="textunderline1">
+        <h2  class="wow rotateInDownLeft" style="color: #6E6E7F;"> 
+            <span class="text-body ">The latest.</span>
+             Take a look at what's new, right now.
+            </h2>
+          </div>
+
+            <br> <br>
+
+    <div class="row">
+         <div class="col-lg-4 col-md-4 col-sm-4 p-2">
+                <div class="wow flipInY" data-wow-duration="5s"    id="box3">
+                    <div id="box3i"> <br> <h3 style="font-size: 12px; color: whitesmoke;">Iphone 15 pro</h3>
+                         <h1  style="list-style: none;"><a id="box3itext" style="font-size: 30px; color: whitesmoke;" href="">Titanium</a></h1>
+                         <h3 style="font-size: 17px; color: whitesmoke;">From $999 or $41.62/mo. for 24mo.*</h3>
+                    </div>
+                 </div>
+        </div>
+
+                    <br>
+
+    <div class="col-lg-4 col-md-4 col-sm-4 p-2">
+        <div class="wow flipInY" data-wow-duration="5s"  id="box4">
+             <div id="box4i"> <br> <h3 style="font-size: 12px; color: whitesmoke;">Apple Watch Series 9</h3>
+                <h1  style="list-style: none;"><a id="box4itext" style="font-size: 30px; color: whitesmoke;" href="">Smarter.Brighter</a></h1>
+                    <h3 style="font-size: 17px; color: whitesmoke;">From $399 or $33.25/mo. for 12mo.*</h3>
+             </div>
+        </div> 
+                   <br>
+                       
+    </div>
+                    <br>
+
+    <div class="col-lg-4 col-md-4 col-sm-4 p-2">
+         <div class="wow flipInY" data-wow-duration="5s"    id="box5">
+                <div id="box5i"> <br> <h3 style="font-size: 12px; color: whitesmoke;">Ipad pro</h3>
+                    <h1 style="list-style: none;"><a id="box5itext"  style="font-size: 30px; color: whitesmoke;" href="">SuperCharged by M2</a></h1>
+                    <h3 style="font-size: 17px; color: whitesmoke;">From $259 or $20.62/mo. for 12mo.*</h3>
+                </div>
+        </div>
+        </div>
+    </div>  
+    </div>
+    
+ 
+
+
+                
+            <!-- ///////////// 3 images again//////////////// -->
+            <br><br><br><br><br>
+
+         <div id="iphone" class="jumbotron">
+          <div id="textunderline2">
+           <h2 class="wow bounceInDown" data-wow-duration="2s" style="color: #6E6E7F;"> <span class="text-body ">Here Is Here</span> Whenever And However You Need It.</h2>
+          </div>
+
+                 <br> <br>
+         <div class="row">
+             <div class="col-lg-4 col-md-4 col-sm-4 p-2">
+                 <div  id="box6">
+                    <div id="box6i"> <br> <h3 class="wow bounce" data-wow-duration="4s" style="font-size: 12px; color: rgb(0, 0, 0);">SPECIALIST</h3>
+                     <h3 class="wow bounce" data-wow-duration="4s" id="box6itext" style=" color: rgb(0, 0, 0);">APPLE 
+                        Shop one on one with a Specialist. Online or in a store.</h3>
+                    
+                  </div>
+                 </div>
+             </div>
+
+             <br>
+
+             <div class="col-lg-4 col-md-4 col-sm-4 p-2">
+                 <div  id="box7">
+                     <div id="box7i"> <br> <h5 class="wow bounce" data-wow-duration="4s" style="font-size: 12px; color: #F56300;">NEW</h5>
+                         <h1 class="wow bounce" data-wow-duration="4s"  id="box7itext" style="font-size: 24px; color: whitesmoke;">Shop with a Specialist
+                            over video.</h1>
+                         <h3 class="wow bounce" data-wow-duration="4s" style="font-size: 12px; color: whitesmoke;">Choose your next device in a guided, one-way
+                            video session.</h3>
+                      </div>
+                 </div> <br>
+                
+             </div>
+             <br>
+
+      <div class="col-lg-4 col-md-4 col-sm-4 p-2">
+    <div   id="box8">
+      <div id="box8i"> <br> <h3 class="wow bounce" data-wow-duration="4s" style="font-size: 15px; color: #6E6E73;">Ipad pro</h3>
+        <h1 class="wow bounce" data-wow-duration="4s" id="box8itext" style="font-size: 30px; color: #000000;">SuperCharged by M2</h1>
+            <h3 class="wow bounce" data-wow-duration="4s" style="font-size: 17px; color: #6E6E73;">From $259 or $20.62/mo. for 12mo.*</h3>
+     </div>
+                 </div> <br>
+               
+             </div>
+         </div>  
+     </div>
+     <!-- <br><br><br><br><br> -->
+
+   <br><br><br><br><br>
+   <!-- //////////////// watches banner open//////// -->
+
+   <div id="watch" class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              
+            </div>
+              <!-- /////////// -->
+            <div  class="col-lg-4 col-md-4 col-sm-4 wow pulse" data-wow-duration="5s">
+                <div id="watchbox" class="container">  </div> 
+                <br>
+                <div  id="textunderline1" class="container text-center " > <p id="watchpara"> A Great Deal To &nbsp; Love</p></div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4"></div>
+        </div>
+      
+    </div>
+</div> 
+<br><br><br>
+        <!-- ///// bg image watch single -->
+          
+<div class="container-fluid ">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 p-0">
+            <div class="wow flipInX" data-wow-duration="4s" id="watchbg"></div>
+
+        </div>
+    </div>
+</div>
+    <!-- //////////////// watches banner close//////// -->
+    <br><br><br>
+
+    <!-- //////////// watch with text 2nd open / -->
+
+    <div style="width: 55%;" id="textunderline1" class="container">
+    <h1 class="wow bounceOut" data-wow-duration="4s" id="watchtext" style="font-family: arial; font-weight: bold;"> Which Apple Watch Is Right For You. </h1>
+    </div>
+
+    <br><br>
+    <!-- //////////// multiple watch img//// -->
+    <div class="container-fluid watch2">
+        <div class="container">
+        <div class="row">
+            <div  class="col-lg-6 col-md-6 col-sm-6 wow slideInLeft " data-wow-duration="3s">
+                <div id="watchbox2">
+                    <br><br> <br><br><b></b>
+                 <h1 id="watchtext1" class="text-left "><b>A First For Apple Watch.<br> And Apple.</b></h1>
+                 <br>
+                 <a class="text-center" href="#">Learn More > </a>
+                </div> 
+            </div>
+        
+
+
+
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="wow pulse" data-wow-duration="4s" id="watchmultibg"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- //////////// watch with text 2nd close / -->
+     <br><br><br><br><br>
+<!-- ////////// 4 images ///////// -->
+
+ <div id="accessories" class="container-fluid">
+    <br>
+    
+    <h1  style="font-size: 50px;" class="text-center" ><b>Accessories</b></h1>
+
+    <br><br>
+    <div class="row"> 
+        <div class="col-lg-3 col-md-3 col-sm-3">
+
+
+          <div class="wow bounce" data-wow-duration="4s" id="image1">
+            <br> 
+            <a href="img/accessories1.jpeg" data-lightbox="mygallery">
+              <img class="w-100" src="img/accessories1.jpeg" alt="">
+            </a>
+            <br> <br>
+            <h5 class="text-dark text-center"><b><a>Beats Studio Buds + True Wireless Noise Cancelling</a></b></h5>
+            
+            <p class="text-center text-danger"><b>$169.99 </b></p>
+            <button onclick="alert('you added airpods of $169.99 in the cart ')" class="add-to-cart-btn">Add to Cart</button>
+          </div>
+
+            </div>
+        <!-- ///// -->
+        <div class="col-lg-3 col-md-3 col-sm-3">  
+             <div class="wow bounce" data-wow-duration="4s" id="image1">
+                 <br>
+                <a href="img/accessories3.png" data-lightbox="mygallery" >
+            <img class="w-100" src="img/accessories3.png" alt="">
+        <br> 
+        <h5 class="text-dark text-center"><b><a>AirPods Max  Wireless Headphones - Rose Gold
+           </a></b>
+        </h5>
+        
+        <p class="text-center text-danger"><b>$549.00 </b></p>
+        <button  onclick="alert('Wireless Headphones of $549.00 added in the cart ')" class="add-to-cart-btn">Add to Cart</button>
+
+           </div>
+        </div>
+           <!-- //// -->
+        <div class="col-lg-3 col-md-3 col-sm-3">
+            <div class="wow bounce" data-wow-duration="4s" id="image1"> 
+
+                <a href="img/accessories2.jpeg" data-lightbox="mygallery" >
+                    <br>
+                <img class="w-100" src="img/accessories2.jpeg" alt="">
+
+            <br> <br>
+            <h5 class="text-dark text-center"><b><a>Logitech Keys-to-Go Ultra Slim Keyboard Design</a></b></h5>
+            
+            <p class="text-center text-danger"><b> $69.95 </b></p>
+            <button  onclick="alert('Ultra Slim KeyBoard of $169.99 added in the cart ')" class="add-to-cart-btn">Add to Cart</button>
+
+               </div>
+        </div>
+        <!-- //// -->
+        <div class="col-lg-3 col-md-3 col-sm-3">
+            <div class="wow bounce" data-wow-duration="4s" id="image1">
+
+                <a href="img/accessories4.jpeg" data-lightbox="mygallery" >
+                <img class="w-100 lastimg" src="img/accessories4.jpeg" alt="">
+            <br> <br> <br>
+            <h5 class="text-dark text-center"><b><a>Tech21 EvoPop case for AirTags (4-Pack)
+                </a></b></h5>
+            
+            <p class="text-center text-danger"><b>$29.95 </b></p>
+            <button  onclick="alert('Pack of 4 AirTags of $169.99 added in the cart ')" class="add-to-cart-btn">Add to Cart</button>
+
+               </div>
+        </div>
+    </div>
+     </div>
+     <br><br><br>
+<!-- ///////text 4 columns///// -->
+   <div class="container ">
+    <br><br><br>
+    <div style="width: 78%;" id="textunderline2">
+    <h3   class="wow slideInLeft" data-wow-duration="2s"style="color: #6E6E7F;"> 
+        <span class="text-body ">The Apple Store Difference</span> Even More Reasons To Shop With Us</h3>
+        </div>
+    <br> <br>
+    <div class="row">
+
+   <div class="col-lg-3 col-md-3 col-sm-3 zoom">
+     <div class="wow pulse" data-wow-duration="3s"  id="text1">
+        <br>
+        <a href="">
+        <i  id="icons" class="fa-solid fa-truck wow tada" data-wow-duration="3s"></i>
+        </a>
+     <br>
+
+    <br><br>
+    <h3  style="font-size: 23px; margin-left: 10px; font-weight: bold;">Enjoy 
+        <span style="color: #68CC45;"> two-hour delivery </span>
+         from an Apple Store, <span style="color: #68CC45;"> free delivery,
+        </span> or <span style="color: #68CC45;">easy</span>
+    </h3>
+    </div>
+     </div>
+
+
+      <div class="col-lg-3 col-md-3 col-sm-3">
+        <div class="wow pulse" data-wow-duration="3s" id="text1"><br><a href="">
+            <i id="iconss" class="fa-brands fa-apple wow tada" data-wow-duration="3s"></i></a>
+         <br><br><br>
+    
+    <h3 style="font-size: 23px; margin-left: 10px; font-weight: bold;"> 
+    <span style="background: #FFF714;
+     background: radial-gradient(circle farthest-corner at bottom right, #FFF714 13%, #40F9FF 29%, #00FF00 36%, #FF0077 90%, #FF0000 27%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;">Customize </span>your Mac and create your own style of Apple Watch.</h3>
+
+    </div>
+     </div>
+
+
+   <div class="col-lg-3 col-md-3 col-sm-3">
+     <div class="wow pulse" data-wow-duration="3s" id="text1"> <br><a href="">
+        <i id="iconsss" class="fa-regular fa-credit-card wow tada" data-wow-duration="3s"></i></a> 
+        <br>
+   <br><br>
+    <h3 style="font-size: 23px; margin-left: 10px; font-weight: bold;">Pay in full or <span style="color: #68CC45;"> pay over time.</span> Your choice. ful time availabilty</h3>
+   </div>
+   </div>
+
+    <div class="col-lg-3 col-md-3 col-sm-3">
+        <div class="wow pulse" data-wow-duration="3s" id="text1">
+            <br><a href="">
+            <i id="iconssss" class="fa-regular fa-face-grin wow tada" data-wow-duration="3s"></i></a> 
+            <br>
+    <br><br>
+    <h3 style="font-size: 23px; margin-left: 10px; font-weight: bold;">Make them yours. <span style="color:#AB39FF;">Engrave a mix of emoji, names, and numbers for free.</span> </h3>
+    </div>
+    </div>
+
+    </div>
+    </div>
+<!-- ///////text 4 columns close///// -->
+    <br> <br><br>
+ <!-- /////////quick links/// -->
+     <div class="container">
+    <div class="row"> 
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <h1> Quick Links</h1> <br> <br>
+            <input id="btnfour" onclick="alert('This is Your Order Status')"  class="btn btn-dark wow flipInX" data-wow-duration="2s" type="button" value="Order Status">
+            <input id="btnfour"  onclick="alert('You want Any Shopping Help')"  style="margin-left: 30px ;"   class="btn btn-dark  wow flipInX" data-wow-duration="4s" type="button" value="Shopping Help">
+            <input id="btnfour" onclick="alert('You Want To Return Anything ?')" id="lastbtn1"  style="margin-left: 40px ;"  class="btn btn-dark  wow flipInX" data-wow-duration="6s" type="button" value="Returns">
+            <input id="btnfour" onclick="alert('The Items You Saved')" id="lastbtn2"  style="margin-left: 50px ;" class="btn btn-dark  wow flipInX" data-wow-duration="8s" type="button" value="Your saves">
+        </div>
+    </div>
+    </div>
+    
+    <br><br><br>
+     <div class="container">
+    <p style="font-size: 14px; color: #686b6d;">* Pricing for iPhone 15 and iPhone 15 Plus includes a $30 connectivity discount that requires activation with AT&T, T-Mobile, or Verizon. Available to qualified customers and requires 24-month installment loan when you select Citizens One or Apple Card Monthly Installments (ACMI) as <span id="para">
+        payment type at checkout at Apple. Youll need to select AT&T, T-Mobile, or Verizon as your carrier when you check out. An iPhone purchased with ACMI is always unlocked, so you can switch carriers at any time. Subject to credit approval and credit limit. Taxes and shipping are not included in ACMI and are subject to your cards variable APR. Additional Apple Card Monthly Installments terms are in the Apple Card Customer Agreement(Opens in a new window). Additional iPhone Payments terms are here(Opens in a new window). ACMI is not available for purchases made online at special storefronts. The last month payment for each product will be the products purchase price, less all other payments at the monthly payment amount. ACMI financing is subject to change at any time for any reason, including but not limited to, installment term lengths and eligible products. See https://support.apple.com/kb/HT211204(Opens in a new window) for information about upcoming changes to ACMI financing. <br>
+     
+        
+        
+        
+        To access and use all Apple Card features and products available only to Apple Card users, you must add Apple Card to Wallet on an iPhone or iPad that supports and has the latest version of iOS or iPadOS. Apple Card is subject to credit approval, available only for qualifying applicants in the United States, and issued by Goldman Sachs Bank USA, Salt Lake City Branch.
+        <br>
+        If you reside in the U.S. territories, please call Goldman Sachs at 877-255-5923 with questions about Apple Card.
+        <br>
+      
+        <br>
+
+        <br>
+        1. Special pricing available to qualified customers. To learn more about how to start qualifying toward special pricing, talk to an Apple Specialist in a store or give us a call at 
+        <br>
+      
+        <br>
+        3. Trad values will vary based on the condition, year, and configuration of your eligible trade device. Not all devices are eligible for credit. You must be at least the age of majority to be eligible to trade in for credit or for an Apple Gift Card. Trade value may be applied toward qualifying new device purchase, or added to an Apple Gift Card. Actual value awarded is based on receipt of a qualifying device matching the description provided when estimate was made. Sales tax may be assessed on full value of a new devi
+        <br> </span>
+        ⁺ New subscribers only. $10.99/month after trial. Offer available for a limited time to new subscribers who connect an eligible device to an Apple device running iOS 15 or iPadOS 15 or later. Offer good for 3 months after eligible device pairing. No audio product purchase necessary for current owners of eligible devices. Plan automatically renews until cancelled. Restrictions and other terms apply.
+        <br>
+        We approximate your location from your internet IP address by matching it to a geographic region or from the location entered during your previous visit to Apple.
+        Footer
+        Apple
+        </p>
+        </div> 
+        <br><br>
+    
+    <div style="border-bottom: solid #b5aeae;" class="container">
+        <br><p> <i class="fa-brands fa-apple"></i> > Apple Store Online </p>
+        <div class="row">
+            
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <div id="last">
+                  <ul id="list1" style="list-style-type: none; font-size: 13px;">
+                    <h5>shop and learn</h5>
+               
+                       <li> Accessories</li>
+                       <li> Gift Cards</li>
+                    <h5>Apple Wallet</h5>
+    
+                        <li>Apple Wallet</li>
+                      <li>  Wallet</li>
+                       <li>Apple Card</li>
+                
+                  </ul>
+                </div>
+            </div>
+    
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <div id="last">
+                    <ul id="list2" style="list-style-type: none; font-size: 13px;">
+                    <h5>account</h5>
+    
+                        <li>Store</li>
+                           <li>Mac</li> 
+                           <li> iPad</li>
+                           <li> iPhone</li>
+                           <li> Watch</li>
+                           <li> Vision</li>
+              
+                      </ul>
+                </div>
+            </div>
+    
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <div id="last">
+                    <ul id="list3" style="list-style-type: none; font-size: 13px;" >
+                        <br>
+                    <h5>Apple Store</h5>
+    
+                        <li>Store</li>
+                           <li>Mac</li> 
+                           <li> iPad</li>
+                           <li> iPhone</li>
+                           <li> Watch</li>
+                           <li> Vision</li>
+                        
+                                </ul>
+                </div>
+            </div>
+    
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <div id="last">
+                    <ul id="list4" style="list-style-type: none; font-size: 13px;">
+                    <h5>For Business</h5>
+                        
+                        <li>Store</li>
+                           <li>Mac</li> 
+                           <li> iPad</li>
+                           <li> iPhone</li>
+                           <li> Watch</li>
+                           <li> Vision</li>
+                       
+                    
+            </div>
+        </div>
+        
+       
+        <p style="font-size: 15px; margin-top: 20px; ">More ways to shop: Find an Apple Store or other retailer near you. Or call 1800MYAPPLE.
+            </p>
+    </div>
+        </div>
+
+        <br><br>
+        
+        
+       <div class="container p-0 text-center">
+        <p  >
+            Privacy Policy | Terms of Use | Sales and Refunds | Legal | Site Map <span style="margin-left: 100px;">Pakistan</span></p>
+            <span style="color: #F32665; font-weight: bold;"> Copyright © Made by Shiza Khan.</span>
+        </div>
+      </div>
+        <br><br>
+        <!-- pre loader open  -->
+        
+  <div class="preloader-container">
+    <div class="preloader">
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+    </div>
+  </div>
+
+  
+        <!-- pre loader close  -->
+
+
+    
+</body>
+
+<script src="jquery-3.7.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="lightbox/js/lightbox-plus-jquery.min.js"></script>
+<script src="https://kit.fontawesome.com/f801ff5f81.js" crossorigin="anonymous"></script>
+<script src="Wow/dist/wow.min.js"></script>
+
+
+
+<!-- JavaScript library for animations -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<!-- Lightbox library for displaying images -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+
+<script>
+    new WOW().init();
+</script>
+
+<script>
+  // modal form .............
+  $(document).ready(function() {
+  // Event listener for product select change
+  $('#productSelect').change(function() {
+    var totalPrice = parseInt($(this).val());
+    $('#totalPrice').text('Rs ' + totalPrice.toLocaleString()); // Display price with commas
+    updateSubtotal(); // Update subtotal when product changes
+  });
+
+  // Function to update subtotal based on quantity
+  function updateSubtotal() {
+    var quantity = parseInt($('.quantity').val());
+    var price = parseInt($('#productSelect').val()); // Get the price of selected product
+    var subtotal = quantity * price;
+    $('#subtotal').text('Rs ' + subtotal.toLocaleString()); // Display subtotal with commas
+  }
+
+  // Event listener for quantity change
+  $('.quantity').on('change', function() {
+    updateSubtotal();
+    updateTotalItems();
+  });
+
+  // Function to update total items count
+  function updateTotalItems() {
+    var totalItems = 0;
+    $('.quantity').each(function() {
+      totalItems += parseInt($(this).val());
+    });
+    $('#totalItems').text(totalItems);
+  }
+
+  // Event listener for remove button click
+  $('.remove-btn').on('click', function() {
+    $(this).closest('.product').remove();
+    updateTotalItems();
+    updateSubtotal();
+  });
+});
+// modal form
+
+// pre loader script 
+
+window.addEventListener('load', function() {
+  const preloader = document.querySelector('.preloader-container');
+  const content = document.getElementById('content');
+
+  setTimeout(function() {
+    preloader.style.display = 'none';
+    content.style.display = 'block';
+  },);
+});
+
+
+// pre loader script 
+
+</script>
+
+  
+<script>
+
+
+	$(document).ready(function(){
+
+ let scroll_link = $('.scroll');
+
+  //smooth scrolling -----------------------
+  scroll_link.click(function(e){
+
+      e.preventDefault();
+      let url = $('body').find($(this).attr('href')).offset().top;
+      
+      $('html, body').animate({
+        scrollTop : url
+      },2000);
+      
+      $(this).parent().addClass('active');
+      $(this).parent().siblings().removeClass('active');
+      return false;	
+      
+   });
+  
+});
+ 
+  //smooth scrolling -----------------------
+
+
+</script>
+
+
+
+</html>
